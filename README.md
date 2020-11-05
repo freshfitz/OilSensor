@@ -7,6 +7,9 @@ Python oil tank sensor to json output
 
 This is a python script to output the distance of a tank sensor to tank gallons left and percentage of tank full. I am using the script to display the results on my magic mirror.
 
+Connect sensor to your pi
+<img src="https://pi.lbbcdn.com/wp-content/uploads/2018/03/Distance-sensor-GPIO-pins-768x147.png">
+
 
 To install you must install apache and php on your pi
 from your home directory ~/pi run
