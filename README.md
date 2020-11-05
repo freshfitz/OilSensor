@@ -26,7 +26,7 @@ rm -rf /var/www/html/index.html
 
 touch /var/www/html/index.php
 
-# allow index.php writeable from the python script
+#allow index.php writeable from the python script
 
 chown -R pi:pi /var/www/html/index.php
 
