@@ -59,7 +59,7 @@ Gallons: 192.220837567 US
 Percentage: 76.8883350267 %
 
 
-if you browse to your pi's ip address you should get
+if you browse to your pi's ip address you should get http://ip-of-pi
 
 {"percentage": 76.3988548810431, "gals": 190.99713720260775, "name": "OilSensor", "cm": 37.83, "in": 14.893700787401574}
 
