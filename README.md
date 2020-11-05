@@ -32,7 +32,9 @@ chown -R pi:pi /var/www/html/index.php
 
 chmod 777 /var/www/html/index.php
 
-If you have your sensor connected to your pi run python ~/OilSensor/sensor.py
+If you have your sensor connected to your pi run 
+python ~/OilSensor/sensor.py
+
 You should get an output of
 
 pi@oilsensor:~ $ python ~/oilsensor/sensor.py
