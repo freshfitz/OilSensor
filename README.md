@@ -10,9 +10,10 @@ This is a python script to output the distance of a tank sensor to tank gallons 
 To install you must install apache and php on your pi
 from your home directory ~/pi run
 
-git clone https://github.com/freshfitz/OilSensor
+git clone https://github.com/freshfitz/OilSensor 
 
 To install apache and php run
+
 sudo apt install apache2 -y
 sudo apt install php libapache2-mod-php -y
 
@@ -24,8 +25,7 @@ touch /var/www/html/index.php
 chown -R pi:pi /var/www/html/index.php
 chmod 777 /var/www/html/index.php
 
-If you have your sensor connected to your pi run
-python ~/OilSensor/sensor.py
+If you have your sensor connected to your pi run python ~/OilSensor/sensor.py
 You should get an output of
 
 pi@oilsensor:~ $ python ~/oilsensor/sensor.py
