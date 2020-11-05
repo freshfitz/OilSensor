@@ -1,5 +1,5 @@
 # OilSensor
-Python oil tank sensor to json output
+Python pi ultrasonic distance sensor used as tank sensor to json output liquid levels
 
 {"percentage": 76.3988548810431, "gals": 190.99713720260775, "name": "OilSensor", "cm": 37.83, "in": 14.893700787401574}
 
