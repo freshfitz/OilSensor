@@ -19,11 +19,17 @@ sudo apt install apache2 -y
 sudo apt install php libapache2-mod-php -y
 
 this script will use index.php to display the json so first lets remove the default index.html
+
 rm -rf /var/www/html/index.html
+
 #Create index.php
+
 touch /var/www/html/index.php
+
 # allow index.php writeable from the python script
+
 chown -R pi:pi /var/www/html/index.php
+
 chmod 777 /var/www/html/index.php
 
 If you have your sensor connected to your pi run python ~/OilSensor/sensor.py
