@@ -66,7 +66,9 @@ You can now use anything you want to read this json format, for example I have i
 https://github.com/amcolash/MMM-json-feed
 
 To update the data I have a cron job running, simply use
+
 crontab -e
+
 */5 * * * * python ~/oilsensor/sensor.py
 
 this will run the script every 5 min and update the index.php file
