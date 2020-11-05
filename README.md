@@ -4,6 +4,7 @@ Python oil tank sensor to json output
 {"percentage": 76.3988548810431, "gals": 190.99713720260775, "name": "OilSensor", "cm": 37.83, "in": 14.893700787401574}
 
 <img src="https://github.com/freshfitz/OilSensor/blob/main/Capture.JPG">
+<img src="https://github.com/freshfitz/OilSensor/blob/main/Capture1.JPG:>
 
 This is a python script to output the distance of a tank sensor to tank gallons left and percentage of tank full. I am using the script to display the results on my magic mirror.
 
