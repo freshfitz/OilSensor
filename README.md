@@ -15,6 +15,7 @@ git clone https://github.com/freshfitz/OilSensor
 To install apache and php run
 
 sudo apt install apache2 -y
+
 sudo apt install php libapache2-mod-php -y
 
 this script will use index.php to display the json so first lets remove the default index.html
