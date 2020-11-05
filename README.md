@@ -63,6 +63,8 @@ if you browse to your pi's ip address you should get http://ip-of-pi
 
 {"percentage": 76.3988548810431, "gals": 190.99713720260775, "name": "OilSensor", "cm": 37.83, "in": 14.893700787401574}
 
+Look at the top lines of sensor.py you will have to adjust the distances for your setup and the tank size for your setup
+
 You can now use anything you want to read this json format, for example I have it displaying on my magicmirror using MMM-Json-feed
 https://github.com/amcolash/MMM-json-feed
 
